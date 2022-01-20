@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Open+Sans:ital,wght@0,500;0,700;1,300&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100;1,500&display=swap');
+html{
+	scroll-behavior: smooth;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  width: 6px;
+  height: 20px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,lightblue);
+  border-radius: 6px;
+}
+body{
+	background-color: #222;
+}
+.navbar{
+	border-bottom: 1px solid black;
+}
+.navbar-brand{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: orange !important;
+}
+.navbar-toggler{
+	background-color: #f9ca24 !important;
+	border-radius: 0px !important; 
+}
+ {
+	color: black !important;
+}
+.background_img img{
+	height: 100vh;
+	width: 100%;
+
+}
+/*Founder section from here*/
+
+.container-fluid{
+	padding-top: 2%;
+	padding: 5px;
+	background-color: #f1c40f;
+}
+.container-fluid:hover{
+	background-color:#f39c12 ;
+	padding: 10px;
+	transition: .2s ease;
+	cursor: pointer;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+/*third party code from here*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  /*background-color: white;*/
+}
+
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.grid > article img {
+  max-width: 100%;
+}
+
+.grid .text {
+  padding: 20px;
+}
+
+article{
+	font-family: roboto;
+	color: white;
+}
+.Counter_up i {
+  font-size: 4em !important;
+  margin-top: 10%;
+  color: white;
+}
+
+.Counter_up h1 {
+  padding-top: 30px;
+  color: white !important;
+}
+
+ .Counter_up h2 {
+   color: white;
+}
+span{
+	font-family: cursive;
+	color: white !important;
+}
+
+/*popup*/
+.popup{
+    background-color: #222;
+    width: 450px;
+    max-width: 400px;
+    padding: 100px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+    box-shadow: 20px 20px 0 black;
+}
+.popup button{
+    display: block;
+    margin:  0 0 100px auto;
+    margin-top: -15%;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2{
+  color: white;
+  margin-top: -20%;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    color: white;
+    line-height: 25px;
+}
